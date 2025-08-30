@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade -y
 
 mkdir -p /tmp/alpha/tools/translation/assets
-wget  https://raw.githubusercontent.com/alpha-1024/install/refs/heads/main/installing.sh -O /tmp/alpha/install.sh 2>>/dev/null 
+wget  https://raw.githubusercontent.com/alpha-1024/install/refs/heads/main/src/terminal_colors.sh -O /tmp/alpha/install.sh 2>>/dev/null 
 chmod  +x /tmp/alpha/install.sh
 source /etc/profile
 
