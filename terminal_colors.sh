@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# 更新软件源并升级系统
-sudo apt update
-sudo apt upgrade -y
-
 # 安装 vim 和 bash-completion
 sudo apt install -y vim bash-completion
 
